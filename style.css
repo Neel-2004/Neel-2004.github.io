@@ -22,6 +22,21 @@ main {
   margin: 0 auto;
 }
 
+.hero {
+  max-width: var(--max);
+  margin: 0 auto 2rem;
+  height: 260px;
+  overflow: hidden;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 55%;
+  display: block;
+}
+
 nav.tiles {
   max-width: var(--max);
   margin: 0 auto 2.5rem;
